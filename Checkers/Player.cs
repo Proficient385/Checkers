@@ -4,7 +4,13 @@ using System.Text;
 
 namespace Checkers
 {
-    class Player
+    class Player : IPlayer
     {
+        public string Name => throw new NotImplementedException();
+
+        public (int, int) GetMove()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
