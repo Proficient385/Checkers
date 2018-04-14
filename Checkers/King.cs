@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Checkers
 {
-    class King
+    class King:Piece
     {
+        public King(Color c, int p) : base(c, p) { }
     }
 }
